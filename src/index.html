@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <app-bar></app-bar>
+    </header>
+    <main>
+      <div class="container">
+        <div class="button-container">
+          <button id="sync-button" class="action-button sync-button">
+            <i class="fas fa-sync"></i> Sync Notes
+          </button>
+          <button id="toggle-view" class="action-button toggle-button">
+            <i class="fas fa-archive"></i> Archive
+          </button>
+        </div>
+        <section id="add-note">
+          <form id="add-note-form">
+            <input type="text" id="title" placeholder="Title" required />
+            <textarea id="body" placeholder="Write your note here..." required></textarea>
+            <button type="submit">Add Note</button>
+          </form>
+        </section>
+        <section id="notes">
+          <note-list></note-list>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
