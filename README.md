@@ -25,7 +25,7 @@ A simple and intuitive web application for managing notes, built with vanilla Ja
 
 ## Developer Certification
 
-This project was developed by Muhammad Azizsyah Putra, who has completed the "Belajar Fundamental Front-End Web Development" course from Dicoding Indonesia. The certification details are as follows:
+This project was developed to completed the "Belajar Fundamental Front-End Web Development" course from Dicoding Indonesia. The certification details are as follows:
 
 - **Course**: Belajar Fundamental Front-End Web Development
 - **Date of Completion**: September 14, 2024
