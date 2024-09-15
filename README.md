@@ -103,10 +103,6 @@ notes-app/
 
 This application uses the [Notes API](https://notes-api.dicoding.dev/v2) for data management. Please refer to the API documentation for more details.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is licensed under the ISC License.
