@@ -1,0 +1,36 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Integrasi Notes App dengan RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --mode production",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notes",
+    "app",
+    "javascript",
+    "webpack"
+  ],
+  "author": "muhazziz",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "^2.8.8",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "sweetalert2": "^11.7.12"
+  }
+}
